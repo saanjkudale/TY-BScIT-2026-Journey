@@ -1,0 +1,17 @@
+What is Linux?
+Ans. Linux is a free and open-source operating system kernel used to build operating systems such as Ubuntu and Fedora.
+
+What is a Linux Distribution?
+Ans. A Linux Distribution is a complete operating system that includes the Linux kernel, system tools, software, and user interface.
+
+Difference Between Linux and Windows?
+Ans. Linux is free, open-source, secure, and highly customizable, whereas Windows is proprietary, paid, and more commonly used on personal computers.
+
+What is a Terminal?
+Ans. A Terminal is a command-line interface that allows users to interact with the operating system by typing commands.
+
+What is VMware?
+Ans. VMware is virtualization software that enables multiple operating systems to run on a single physical computer using virtual machines.
+
+What is Red Hat?
+Ans. Red Hat is a software company that develops Linux-based enterprise solutions. Its main operating system is Red Hat Enterprise Linux (RHEL), widely used in businesses and servers.
