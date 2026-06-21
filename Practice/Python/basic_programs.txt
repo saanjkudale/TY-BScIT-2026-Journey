@@ -1,0 +1,41 @@
+1. Print Your Name, Age, and College
+name = "Saanj"
+age = 20
+college = "R.K. Talreja College"
+
+print("Name:", name)
+print("Age:", age)
+print("College:", college)
+2. Add Two Numbers
+num1 = float(input("Enter first number: "))
+num2 = float(input("Enter second number: "))
+
+sum = num1 + num2
+
+print("Sum =", sum)
+3. Find the Largest of Two Numbers
+num1 = float(input("Enter first number: "))
+num2 = float(input("Enter second number: "))
+
+if num1 > num2:
+    print("Largest number is:", num1)
+else:
+    print("Largest number is:", num2)
+4. Check Whether a Number is Even or Odd
+num = int(input("Enter a number: "))
+
+if num % 2 == 0:
+    print("Even Number")
+else:
+    print("Odd Number")
+5. Calculate Simple Interest
+
+Simple Interest Formula:
+
+principal = float(input("Enter Principal Amount: "))
+rate = float(input("Enter Rate of Interest: "))
+time = float(input("Enter Time (in years): "))
+
+SI = (principal * rate * time) / 100
+
+print("Simple Interest =", SI)
