@@ -1,0 +1,22 @@
+1. What is .NET?
+.NET is a free software development platform created by Microsoft.
+It provides tools, libraries, and a runtime to build applications.
+
+2. C# (C Sharp)
+C# is the primary programming language used with .NET.
+It is an object-oriented programming language.
+It has syntax similar to Java and C++.
+
+3. CLR (Common Language Runtime)
+The CLR is the execution engine of .NET.
+C# Code
+     ↓
+Compiler
+     ↓
+IL (Intermediate Language)
+     ↓
+CLR
+     ↓
+Machine Code
+     ↓
+Program Runs
