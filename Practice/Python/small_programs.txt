@@ -1,0 +1,61 @@
+1.MULTIPLICATION TABLE:
+num = int(input("Enter a number: "))
+for i in range(1, 11):
+    print(num, "x", i, "=", num * i)
+
+2.LARGEST AMONG 3 NUMBERS:
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+c = int(input("Enter third number: "))
+largest = max(a, b, c)
+print("Largest number is:", largest)
+
+3.LEAP YEAR CHECKER:
+year = int(input("Enter year: "))
+if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):
+    print("Leap Year")
+else:
+    print("Not a Leap Year")
+
+4.POSITIVE/NEGATIVE NUMBER CHECKER:
+num = int(input("Enter a number: "))
+if num > 0:
+    print("Positive Number")
+elif num < 0:
+    print("Negative Number")
+else:
+    print("Zero")
+
+5.FACTORIAL OF A NUMBER:
+num = int(input("Enter a number: "))
+fact = 1
+for i in range(1, num + 1):
+    fact *= i
+print("Factorial =", fact)
+
+6.SUM OF 1st N NATURAL NUMBERS:
+n = int(input("Enter value of n: "))
+sum = 0
+for i in range(1, n + 1):
+    sum += i
+print("Sum =", sum)
+
+7. REVERSE NUMBER:
+num = int(input("Enter a number: "))
+reverse = str(num)[::-1]
+print("Reverse =", reverse)
+
+8. PALINDROME NUMBER CHECKER:
+num = input("Enter a number: ")
+if num == num[::-1]:
+    print("Palindrome")
+else:
+    print("Not Palindrome")
+
+9.VOWELS COUNT:
+text = input("Enter a string: ")
+count = 0
+for ch in text.lower():
+    if ch in "aeiou":
+        count += 1
+print("Number of vowels =", count)
